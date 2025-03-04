@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест КУК</title>
+</head>
+<body>
+    <h1>Тест КУК</h1>
+
+    <script>
+        localStorage.setItem('Boeing 737', '189');
+        localStorage.setItem('Airbus A320', '186');   
+
+        setCookie('Sukhoi Superjet 100', '100', {
+            expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 30),
+            path: '/'
+        });
+    </script>
+</body>
+</html>
